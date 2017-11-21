@@ -1,0 +1,104 @@
+.main {
+	display: flex;
+	background-color: grey;
+	width: 100%;
+	height: 100%;
+}
+
+.calculator {
+	background-color: #F8F8FF;
+	height: 520px;
+	width: 350px;
+	border-radius: 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+.name {
+	height: 50px;
+	width: 280px;
+	background-color-color: black;
+}
+
+.name_text {
+	text-align: center;
+	background-color: #F8F8FF;
+}
+
+.screen {
+	height: 80px;
+	width: 300px;
+	background-color: #D3D3D3;
+	display: flex;
+	flex-direction: column;
+}
+
+.number_entered {
+	height: 50%;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding-right: 5px;
+	font-size: 25px
+}
+
+.all_added {
+	height: 50%;
+	display: flex;
+	flex-direction: row-reverse;
+	padding-right: 5px; 
+}
+
+.buttons {
+	height: 330px;
+	width: 300px;
+	background-color: orange;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	background-color: #F8F8FF;
+}
+
+.row_one, .row_two, .row_three, .row_four {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 18%;
+}
+
+.row_five {
+	width: 73.34%;
+	display: flex;
+	justify-content: space-between;
+	height: 18%;
+}
+
+.small_button {
+	width: 60px;
+	background-color: #696969;
+	color: white;
+}
+
+.large_button {
+	width: 140px;
+	background-color: #696969;
+	color: white;
+}
+
+#equal {
+	height: 127.05px;
+	width: 60px;
+	background-color: #696969;
+	color: white;
+}
+
+button {
+	text-decoration: none;
+	border: none;
+	font-size: 16px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
